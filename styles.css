@@ -1,0 +1,118 @@
+html {
+    background-image: url(/General\ Play\ Image.jpg);
+    background-size: cover; 
+}
+
+.Nav {
+    color: black;
+    border: 1px solid black;
+    height: 75px;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    margin: 0px;
+    left: 0px;
+    color: black;
+    z-index: 10;
+    text-align: center;
+}
+.Home {
+    color: black;
+    border: 1px solid black;
+    height: 75px;
+    width: 160px;
+    position: fixed;
+    top: 0px;
+    margin: 0px;
+    color: black;
+    font-size: larger;
+    text-align: center;
+    line-height: 65px;
+    text-decoration-line: underline;
+    left: 570px;
+}
+
+.About {
+    color: black;
+    border: 1px solid black;
+    height: 75px;
+    width: 145px;
+    position: fixed;
+    top: 0px;   
+    left: 731px;
+    margin: 0px;
+    color: black;
+    font-size: larger;
+    text-align: center;
+    line-height: 65px;
+    text-decoration-line: underline;
+}
+.Contact {
+    color: black;
+    border: 1px solid black;
+    height: 75px;
+    width: 145px;
+    position: fixed;
+    top: 0px;
+    left: 877.5px;
+    margin: 0px;
+    color: black;
+    font-size: larger;
+    text-align: center;
+    line-height: 65px;
+    text-decoration-line: underline;
+}
+header {
+    font-size: xx-large;
+}
+.Two {
+    font-size: x-large;
+}
+
+/*Removed positioning and left properties for the following tags
+img1
+img2
+general
+rules
+differences
+This is done because flex fixes it and it is no longer necessary*/
+
+/*Side note deleted display block from img1 and 2 since that's the default display property for images*/
+.img {
+    height: 250px;
+    width: 400px;
+    border: 1px solid black;
+    margin: 40px;
+}
+
+/*Don't know why this image is so tall, looking at the wireframe I'm assuming you wanted this image to be twice as wide?
+Honestly just gonna comment it out and use img1 as the global tag for images, if this isn't what ur looking for you can
+always uncomment and change 
+
+.img2 {
+    height: 250px;
+    width: 800px;
+    border: 1px solid black;
+    margin: 40px;
+}
+*/
+
+.general-hyperlink {
+    text-decoration: black;
+    color: black;
+    font-size: x-large;
+}
+
+/*FOR LINES 33-38
+Changes included are:
+Flexbox magic to make stuff display on the same line
+Basically I used a new CSS thingy to make things display on the same line called flexbox
+I could have used float or grid property but this gives me an excuse to try out flexbox :D */
+.flex-container {
+    display: flex;
+}
+
+.flex-child {
+    flex: 1;
+    text-align: center;
+}

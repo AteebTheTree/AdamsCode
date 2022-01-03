@@ -1,0 +1,55 @@
+<!--LIST OF ATEEBS CHANGES :D check line for info and explanation-->
+<!--1. Restructuring the code from line 33-38 so that img tags and a tags are paired into divs-->
+<!--2. Changed the divs from line 14-16 to a tags so they're actual links-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Beach Soccer</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <div class="Nav">
+            <div class="Home">
+                <a href="#" class="general-hyperlink">Home</a>
+            </div>
+            <div class="About">
+                <a href="About.html" class="general-hyperlink">About</a>
+            </div>
+            <div class="Contact">
+                <a href="Contact.html" class="general-hyperlink">Contact</a>
+            </div>  
+        </div>
+
+        <br>
+        <br>
+        <br>
+        <br> 
+        <br>
+
+        <center><header> <u> Beach Soccer </u></header></center>
+        <br>
+    
+        <p>
+        Beach soccer is a sport played in many of the world's countries. It is very similar to the traditional game of soccer but it is
+        different in some ways. It's general play and it's unique rules set it apart from any other sport. 
+        </p>
+        
+        <!--Added classes and created a nested div, check CSS for more details-->
+        <div class="flex-container">
+            <div class="flex-child">
+                <img src="/beach_soccer_bk1.jpg" class="img">
+                <a href="general.html" class="general-hyperlink"><u>General Play</u></a>
+            </div>
+            <div class="flex-child">
+                <img src="/Rules of The Game.png" class="img">
+                <a href="rules.html" class="general-hyperlink"><u>Rules of The Game</u></a>
+            </div>
+            <div class="flex-child">
+                <img src="/Differences.png" class="img">
+                <a href="differences.html" class="general-hyperlink"><u>Differences to The Traditional Sport</u></a>
+            </div>
+        </div>
+    </body>
+</html>
